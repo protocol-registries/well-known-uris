@@ -2,7 +2,7 @@
 name: Registration Request
 about: For requests to register a new well-known URI
 title: ''
-labels: ''
+labels: new registration
 assignees: ''
 
 ---

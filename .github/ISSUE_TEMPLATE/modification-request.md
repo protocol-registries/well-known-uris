@@ -2,7 +2,7 @@
 name: Modification Request
 about: For requests to modify a registered well-known URI
 title: ''
-labels: ''
+labels: modification
 assignees: ''
 
 ---
