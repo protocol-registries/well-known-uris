@@ -1,0 +1,8 @@
+{
+    "group": "Well-Known URIs Registry",
+    "group_info": {
+        "name": "Well-Known URIs Registry"
+    },
+    "repo_type": "registry",
+    "issue_summary_to": ["mnot@mnot.net"]
+}
