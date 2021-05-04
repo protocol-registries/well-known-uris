@@ -13,7 +13,7 @@ Please confirm that:
 * [ ] You have checked [the registry](https://www.iana.org/assignments/well-known-uris/) and found no current value that meets your needs.
 * [ ] Your specification reference URL is stable; ideally, managed by a widely-recognised standards development organisation (e.g., published as an RFC). Otherwise, please give additional information.
 
-If so, please enter the details of the link relation type below:
+If so, please enter the details of the well-known URI below:
 
 * URI suffix: 
 * Change controller:  
