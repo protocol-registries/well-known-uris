@@ -23,7 +23,7 @@ This registry requires a stable reference for a specification document. Publicat
 
 Generally, a registration request should be made when your document is mature enough for wide review. 
 
-If your reference is an Internet-Draft, that means when it's adopted by a stream (e.g., the IETF stream, the Independent stream), not beforehand. At that point, a provisional registration can be made, becoming permanent when it becomes and RFC (if appropriate).
+If your reference is an Internet-Draft, the normal time to request registration is around the same time you request other reviews; e.g., Working Group Last Call or IETF Last Call. If you are unsure about your use of well-known URIs, request registration earlier. Note that if you do not request registration here, IANA will do so as part of their process. 
 
 If your reference is in another standards body, a provisional registration can be made before the document is finalised, becoming permanent once it is published (if appropriate).
 
