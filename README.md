@@ -15,9 +15,15 @@ See [RFC8615](https://tools.ietf.org/html/rfc8615) for more information about we
 
 Once approved, your request will be incorporated into the IANA registry, whereupon it will be officially registered.
 
+### Choosing the Right Status
+
+Values defined by standards-defined specifications will have a status of "permanent"; most others will have a status of "provisional." See the [guidance]([https://httpwg.org/http-core/draft-ietf-httpbis-semantics-latest.html#fields.registry](https://www.rfc-editor.org/rfc/rfc8615.html#section-3.1)) for details. Note that we use [this list](https://www.iana.org/assignments/iesg-recognized-organizations/iesg-recognized-organizations.xhtml#organizations) to determine what is a recognised standards organisation.
+
+As per [IANA guidelines](https://www.rfc-editor.org/rfc/rfc8126.html#section-9.6), field names that are no longer in use should be marked as "obsoleted", and those whose use is not recommended should have a status of "deprecated". 
+
 ## Suitable Specification References
 
-This registry requires a stable reference for a specification document. Publication by a recognised open standards body is preferred; however, publication by established Open Source projects (i.e., those that demonstrate a community that's commited to ongoing support), community and commercial organisations are also accepted, provided that they have a reaonable plan to promote specification stability.
+This registry requires a stable reference for a specification document. Publication by a recognised open standards body is preferred; however, publication by established Open Source projects (i.e., those that demonstrate a community that's commited to ongoing support), community and commercial organisations are also accepted, provided that they have a reasonable plan to promote specification stability.
 
 ## When to Register
 
