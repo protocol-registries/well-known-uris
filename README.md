@@ -21,7 +21,7 @@ Values defined by standards-defined specifications will have a status of "perman
 
 As per [IANA guidelines](https://www.rfc-editor.org/rfc/rfc8126.html#section-9.6), field names that are no longer in use should be marked as "obsoleted", and those whose use is not recommended should have a status of "deprecated". 
 
-## Suitable Specification References
+### Suitable Specification References
 
 This registry requires a stable reference for a specification document. Publication by a recognised open standards body is preferred; however, publication by established Open Source projects (i.e., those that demonstrate a community that's commited to ongoing support), community and commercial organisations are also accepted, provided that they have a reasonable plan to promote specification stability.
 
