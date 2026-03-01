@@ -25,6 +25,10 @@ As per [IANA guidelines](https://www.rfc-editor.org/rfc/rfc8126.html#section-9.6
 
 This registry requires a stable reference for a specification document. Publication by a recognised open standards body is preferred; however, publication by established Open Source projects (i.e., those that demonstrate a community that's commited to ongoing support), community and commercial organisations are also accepted, provided that they have a reasonable plan to promote specification stability.
 
+Specifications that are hosted on single-purpose Web sites or GitHub repositories are not eligible for registration unless they demonstrate significant deployment and/or community buy-in. In particular, single-owner GitHub repositories are not suitable specification references.
+
+The specification document must define the registered value as a well-known URI. Requests to register terms specified for other purposes will be rejected.
+
 ## When to Register
 
 Generally, a registration request should be made when your document is mature enough for wide review. 
@@ -34,3 +38,4 @@ If your reference is an Internet-Draft, the normal time to request registration 
 If your reference is in another standards body, a provisional registration can be made before the document is finalised, becoming permanent once it is published (if appropriate).
 
 If your reference is from an Open Source project, community or commerical group, a request can be made once your document becomes public, but anticipatory requests are discouraged, and may be refused or delayed.
+
