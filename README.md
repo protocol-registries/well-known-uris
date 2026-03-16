@@ -15,7 +15,7 @@ See [RFC 8615](https://www.rfc-editor.org/rfc/rfc8615.html) for more information
 
 Once approved, your request will be incorporated into the IANA registry, whereupon it will be officially registered.
 
-## Choosing a Name
+### Choosing a Name
 
 Per [RFC 8615](https://www.rfc-editor.org/rfc/rfc8615.html#section-3), "Registered names for a specific application SHOULD be correspondingly precise; "squatting" on generic terms is not encouraged." Therefore, a request to register a common name that has not seen broad community discussion and support is likely to be responded to with a recommendation to either choose a more specific name (e.g., with a prefix identifying the registering organisation) or to engage in a community discussion first.
 
