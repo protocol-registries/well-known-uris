@@ -11,15 +11,23 @@ To request registration of a new well-known URI (or a change to an existing one)
 * [File an issue](https://github.com/protocol-registries/well-known-uris/issues/new/choose) (preferred), or
 * Send e-mail to [the mailing list](https://www.ietf.org/mailman/listinfo/wellknown-uri-review).
 
-See [RFC8615](https://tools.ietf.org/html/rfc8615) for more information about well-known URIs; in particular, the [requirements for registration](https://tools.ietf.org/html/rfc8615#section-3.1).
+See [RFC 8615](https://www.rfc-editor.org/rfc/rfc8615.html) for more information about well-known URIs; in particular, the [requirements for registration](https://www.rfc-editor.org/rfc/rfc8615.html#section-3.1).
 
 Once approved, your request will be incorporated into the IANA registry, whereupon it will be officially registered.
 
+## Choosing a Name
+
+Per [RFC 8615](https://www.rfc-editor.org/rfc/rfc8615.html#section-3), "Registered names for a specific application SHOULD be correspondingly precise; "squatting" on generic terms is not encouraged." Therefore, a request to register a common name that has not seen broad community discussion and support is likely to be rejected.
+
+For example, a request to register a single English word, either bare or with a suffix (such as `communicate.txt`) is likely to be rejected. Likewise, terms that are related to upcoming or potential standardisation activity may be reserved for community use.
+
+Likewise, if a name with a suffix is already registered, requests for conflicting uses with different suffixes may be rejected to avoid confusion. For example, if `foo.txt` is registered, a request to register `foo.json` for a different and clashing use may be rejected.
+
 ### Choosing the Right Status
 
-Values defined by standards-defined specifications will have a status of "permanent"; most others will have a status of "provisional." See the [guidance]([https://httpwg.org/http-core/draft-ietf-httpbis-semantics-latest.html#fields.registry](https://www.rfc-editor.org/rfc/rfc8615.html#section-3.1)) for details. Note that we use [this list](https://www.iana.org/assignments/iesg-recognized-organizations/iesg-recognized-organizations.xhtml#organizations) to determine what is a recognised standards organisation.
+Values defined by standards-defined specifications will have a status of "permanent"; most others will have a status of "provisional." See the [guidance](https://www.rfc-editor.org/rfc/rfc8615.html#section-3.1) for details. Note that we use [this list](https://www.iana.org/assignments/iesg-recognized-organizations/iesg-recognized-organizations.xhtml#organizations) to determine what is a recognised standards organisation.
 
-As per [IANA guidelines](https://www.rfc-editor.org/rfc/rfc8126.html#section-9.6), field names that are no longer in use should be marked as "obsoleted", and those whose use is not recommended should have a status of "deprecated". 
+As per [IANA guidelines](https://www.rfc-editor.org/rfc/rfc8126.html#section-9.6), values that are no longer in use should be marked as "obsoleted", and those whose use is not recommended should have a status of "deprecated". 
 
 ### Suitable Specification References
 
@@ -31,7 +39,7 @@ The specification document must define the registered value as a well-known URI.
 
 ## When to Register
 
-Generally, a registration request should be made when your document is mature enough for wide review. 
+Generally, a registration request should be made when your document is mature enough for wide review. Registration is _not_ a way to propose something for standardisation; we **strongly** recommend engaging with a broader community (e.g., through the IETF [DISPATCH](https://wiki.ietf.org/en/group/dispatch) process or the W3C [Incubation](https://www.w3.org/guide/incubation.html) process before registration.
 
 If your reference is an Internet-Draft, the normal time to request registration is around the same time you request other reviews; e.g., Working Group Last Call or IETF Last Call. If you are unsure about your use of well-known URIs, request registration earlier. Note that if you do not request registration here, IANA will do so as part of their process. 
 
