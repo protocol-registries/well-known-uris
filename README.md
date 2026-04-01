@@ -17,11 +17,15 @@ Once approved, your request will be incorporated into the IANA registry, whereup
 
 ### Choosing a Name
 
-Per [RFC 8615](https://www.rfc-editor.org/rfc/rfc8615.html#section-3), "Registered names for a specific application SHOULD be correspondingly precise; "squatting" on generic terms is not encouraged." Therefore, a request to register a common name that has not seen broad community discussion and support is likely to be responded to with a recommendation to either choose a more specific name (e.g., with a prefix identifying the registering organisation) or to engage in a community discussion first.
+Per [RFC 8615](https://www.rfc-editor.org/rfc/rfc8615.html#section-3), "Registered names for a specific application SHOULD be correspondingly precise; "squatting" on generic terms is not encouraged." Therefore, a request to register a common name that has not seen broad community discussion and support is likely to be result in a recommendation to either choose a more specific name (e.g., with a prefix identifying the registering organisation) or to engage in a community discussion first.
 
-For example, a request to register a single English word, either bare or with a suffix (such as `communicate.txt`) is likely to be rejected. Likewise, terms that are related to upcoming or potential standardisation activity may be reserved for community use.
+Examples of requests for names that are likely to be rejected (unless associated with a recognised standards organisation) include:
 
-Likewise, if a name with a suffix is already registered, requests for conflicting uses with different suffixes may be rejected to avoid confusion. For example, if `foo.txt` is registered, a request to register `foo.json` for a different and clashing use may be rejected.
+* A single common word, either bare or with a suffix (e.g., `communicate.txt`).
+* A name that only differs with an existing registration by suffix, unless they are compatible (e.g., `foo.txt` and `foo.json` for different purposes).
+* An extremely short name, with or without suffix (e.g., `abc.json`).
+* Names beginning with `ai`, `agent`, or similar terms, due to the broad interest in these concepts.
+* Names that might mislead readers (e.g., a name used by another organisation, or a name incorporating `standard` when it does not have that status).
 
 ### Choosing the Right Status
 
