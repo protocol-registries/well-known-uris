@@ -19,7 +19,7 @@ Once approved, your request will be incorporated into the IANA registry, whereup
 
 Per [RFC 8615](https://www.rfc-editor.org/rfc/rfc8615.html#section-3), "Registered names for a specific application SHOULD be correspondingly precise; "squatting" on generic terms is not encouraged." Therefore, a request to register a common name that has not seen broad community discussion and support is likely to be result in a recommendation to either choose a more specific name (e.g., with a prefix identifying the registering organisation) or to engage in a community discussion first.
 
-Examples of requests for names that are likely to be rejected (unless associated with a recognised standards organisation) include:
+Examples of requests for names that are likely to be rejected (unless made by a recognised standards organisation) include:
 
 * A single common word, either bare or with a suffix (e.g., `communicate.txt`).
 * A name that only differs with an existing registration by suffix, unless they are compatible (e.g., `foo.txt` and `foo.json` for different purposes).
